@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seoari ✦ Bots & Rols</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lato:wght@300;400;700&family=Dancing+Script:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <div class="preloader-inner">
+            <div class="pre-rose">✦</div>
+            <p>cargando...</p>
+        </div>
+    </div>
+
+    <!-- PARTÍCULAS DE FONDO -->
+    <div class="particles" id="particles"></div>
+
+    <!-- WRAPPER PRINCIPAL -->
+    <div class="site-wrapper">
+
+        <!-- ═══ HERO ═══ -->
+        <header class="hero-section">
+            <div class="hero-deco top-left">❧</div>
+            <div class="hero-deco top-right">❧</div>
+
+            <span class="hero-eyebrow">bienvenid@ al universo de</span>
+            <h1 class="hero-name">Seoari</h1>
+            <p class="hero-tagline">
+                escritora de historias · creadora de bots · alma romántica
+            </p>
+            <div class="hero-divider">
+                <span></span><i class="fa-solid fa-diamond"></i><span></span>
+            </div>
+
+            <!-- NAV TABS -->
+            <nav class="hero-nav">
+                <button class="nav-btn" data-panel="about-panel">
+                    <i class="fa-solid fa-feather-pointed"></i> historia
+                </button>
+                <button class="nav-btn" data-panel="bots-panel">
+                    <i class="fa-solid fa-masks-theater"></i> bots
+                </button>
+                <button class="nav-btn" data-panel="links-panel">
+                    <i class="fa-solid fa-link"></i> links
+                </button>
+                <button class="nav-btn" data-panel="rol-panel">
+                    <i class="fa-solid fa-scroll"></i> rol
+                </button>
+            </nav>
+        </header>
+
+        <!-- ═══ PANEL: SOBRE MÍ ═══ -->
+        <div class="panel" id="about-panel">
+            <button class="panel-close"><i class="fa-solid fa-xmark"></i></button>
+            <div class="panel-content">
+                <h2 class="panel-title">Mi Historia</h2>
+                <div class="about-grid">
+                    <div class="about-photo-wrap">
+                        <div class="about-photo">
+                            <img src="https://i.postimg.cc/placeholder/200x280" alt="Seoari" onerror="this.parentElement.classList.add('no-img')">
+                            <div class="photo-caption">Seoari ✦</div>
+                        </div>
+                        <div class="about-tags">
+                            <span>escritora</span>
+                            <span>romántica</span>
+                            <span>dramática</span>
+                            <span>café ☕</span>
+                            <span>libros 📚</span>
+                            <span>oscuridad ✦</span>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p class="about-intro">Hola, soy <strong>Seoari</strong>. Llevo años construyendo mundos con palabras e inventando personajes que no puedo dejar de amar.</p>
+                        <p>Empecé a escribir casi por accidente, buscando una historia que nadie más había contado todavía. Terminé creando docenas de ellas.</p>
+                        <p>Me obsesionan los personajes masculinos con capas: el frío que en el fondo arde, el caos que esconde ternura, el poder que se rinde ante una sola persona.</p>
+                        <div class="about-quote">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <em>«Las mejores historias son las que te rompen justo donde más duele y te recomponen diferente.»</em>
+                        </div>
+                        <p>Aquí encontrarás mis bots, mis mundos, mis reglas de rol y los links donde me puedes encontrar. Siéntete como en casa, pero no toques nada sin permiso. 🌹</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ═══ PANEL: BOTS MASCULINOS ═══ -->
+        <div class="panel" id="bots-panel">
+            <button class="panel-close"><i class="fa-solid fa-xmark"></i></button>
+            <div class="panel-content">
+                <h2 class="panel-title">Mis Bots</h2>
+                <p class="panel-subtitle">Haz hover para descubrir quiénes son de verdad.</p>
+
+                <div class="bots-grid">
+
+                    <!-- BOT 1 -->
+                    <div class="bot-card">
+                        <div class="bot-card-inner">
+                            <div class="bot-card-front">
+                                <div class="bot-img-wrap">
+                                    <img src="https://i.pravatar.cc/200?img=12" alt="Kael">
+                                    <div class="bot-img-overlay"></div>
+                                </div>
+                                <div class="bot-badge">Yandere</div>
+                                <h3 class="bot-name">Kael</h3>
+                                <span class="bot-archetype">El Obsesivo</span>
+                            </div>
+                            <div class="bot-card-back">
+                                <div class="bot-back-icon">⚔</div>
+                                <h3>Kael Voss</h3>
+                                <p>Príncipe oscuro de un reino sin nombre. Te eligió. Y lo que elige, no lo suelta.</p>
+                                <ul class="bot-traits">
+                                    <li>Posesivo al extremo</li>
+                                    <li>Leal solo a ti</li>
+                                    <li>Sonrisa que fría</li>
+                                </ul>
+                                <span class="bot-platform"><i class="fa-solid fa-robot"></i> Janitor AI</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BOT 2 -->
+                    <div class="bot-card">
+                        <div class="bot-card-inner">
+                            <div class="bot-card-front">
+                                <div class="bot-img-wrap">
+                                    <img src="https://i.pravatar.cc/200?img=15" alt="Dorian">
+                                    <div class="bot-img-overlay"></div>
+                                </div>
+                                <div class="bot-badge violet">Tsundere</div>
+                                <h3 class="bot-name">Dorian</h3>
+                                <span class="bot-archetype">El Arrogante</span>
+                            </div>
+                            <div class="bot-card-back">
+                                <div class="bot-back-icon">🎭</div>
+                                <h3>Dorian Grey</h3>
+                                <p>Crítico de arte millonario. Nunca llora. Nunca admite que le importas. Pero siempre aparece.</p>
+                                <ul class="bot-traits">
+                                    <li>Lengua afilada</li>
+                                    <li>Corazón secreto</li>
+                                    <li>Regalos sin razón</li>
+                                </ul>
+                                <span class="bot-platform"><i class="fa-solid fa-robot"></i> Character.ai</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BOT 3 -->
+                    <div class="bot-card">
+                        <div class="bot-card-inner">
+                            <div class="bot-card-front">
+                                <div class="bot-img-wrap">
+                                    <img src="https://i.pravatar.cc/200?img=52" alt="Ezra">
+                                    <div class="bot-img-overlay"></div>
+                                </div>
+                                <div class="bot-badge gold">Cuidador</div>
+                                <h3 class="bot-name">Ezra</h3>
+                                <span class="bot-archetype">El Gentil</span>
+                            </div>
+                            <div class="bot-card-back">
+                                <div class="bot-back-icon">🌿</div>
+                                <h3>Ezra Lin</h3>
+                                <p>Médico de pueblo con manos suaves y secretos que no aparecen en ningún historial clínico.</p>
+                                <ul class="bot-traits">
+                                    <li>Voz que calma</li>
+                                    <li>Pasado misterioso</li>
+                                    <li>Te cuida sin pedirlo</li>
+                                </ul>
+                                <span class="bot-platform"><i class="fa-solid fa-robot"></i> Chub.ai</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BOT 4 -->
+                    <div class="bot-card">
+                        <div class="bot-card-inner">
+                            <div class="bot-card-front">
+                                <div class="bot-img-wrap">
+                                    <img src="https://i.pravatar.cc/200?img=57" alt="Lucian">
+                                    <div class="bot-img-overlay"></div>
+                                </div>
+                                <div class="bot-badge dark">Dark Romance</div>
+                                <h3 class="bot-name">Lucian</h3>
+                                <span class="bot-archetype">El Villano</span>
+                            </div>
+                            <div class="bot-card-back">
+                                <div class="bot-back-icon">🩸</div>
+                                <h3>Lucian Mourne</h3>
+                                <p>Don del crimen organizado. Sus reglas son absolutas. La única excepción eres tú, y aún no sabe por qué.</p>
+                                <ul class="bot-traits">
+                                    <li>Frío y calculador</li>
+                                    <li>Devoto en secreto</li>
+                                    <li>Peligrosamente bello</li>
+                                </ul>
+                                <span class="bot-platform"><i class="fa-solid fa-robot"></i> Janitor AI</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BOT 5 -->
+                    <div class="bot-card">
+                        <div class="bot-card-inner">
+                            <div class="bot-card-front">
+                                <div class="bot-img-wrap">
+                                    <img src="https://i.pravatar.cc/200?img=59" alt="Sol">
+                                    <div class="bot-img-overlay"></div>
+                                </div>
+                                <div class="bot-badge mint">Sunshine</div>
+                                <h3 class="bot-name">Sol</h3>
+                                <span class="bot-archetype">El Caótico</span>
+                            </div>
+                            <div class="bot-card-back">
+                                <div class="bot-back-icon">☀</div>
+                                <h3>Sol Kim</h3>
+                                <p>Músico de calle, risa fácil y corazón que late demasiado rápido cuando estás cerca.</p>
+                                <ul class="bot-traits">
+                                    <li>Energía imparable</li>
+                                    <li>Te dedica canciones</li>
+                                    <li>Más profundo de lo que parece</li>
+                                </ul>
+                                <span class="bot-platform"><i class="fa-solid fa-robot"></i> Doki Chat</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BOT 6 -->
+                    <div class="bot-card">
+                        <div class="bot-card-inner">
+                            <div class="bot-card-front">
+                                <div class="bot-img-wrap">
+                                    <img src="https://i.pravatar.cc/200?img=68" alt="Ren">
+                                    <div class="bot-img-overlay"></div>
+                                </div>
+                                <div class="bot-badge blue">Kuudere</div>
+                                <h3 class="bot-name">Ren</h3>
+                                <span class="bot-archetype">El Silencioso</span>
+                            </div>
+                            <div class="bot-card-back">
+                                <div class="bot-back-icon">🌙</div>
+                                <h3>Ren Aoki</h3>
+                                <p>Detective nocturno que observa más de lo que habla. Sus silencios dicen más que cualquier confesión.</p>
+                                <ul class="bot-traits">
+                                    <li>Pocas palabras, todas ciertas</li>
+                                    <li>Te protege desde las sombras</li>
+                                    <li>Una sonrisa, solo para ti</li>
+                                </ul>
+                                <span class="bot-platform"><i class="fa-solid fa-robot"></i> Haiku / Sonnet</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- ═══ PANEL: LINKS ═══ -->
+        <div class="panel" id="links-panel">
+            <button class="panel-close"><i class="fa-solid fa-xmark"></i></button>
+            <div class="panel-content">
+                <h2 class="panel-title">Links</h2>
+                <p class="panel-subtitle">Encuéntrame en el universo digital.</p>
+                <div class="links-list">
+
+                    <a href="#" class="link-item lk-janitor">
+                        <div class="lk-icon"><i class="fa-solid fa-broom"></i></div>
+                        <div class="lk-info">
+                            <span class="lk-name">Janitor AI</span>
+                            <span class="lk-desc">Todos mis bots sin filtros</span>
+                        </div>
+                        <i class="fa-solid fa-arrow-right lk-arrow"></i>
+                    </a>
+
+                    <a href="#" class="link-item lk-chub">
+                        <div class="lk-icon"><i class="fa-solid fa-dragon"></i></div>
+                        <div class="lk-info">
+                            <span class="lk-name">Chub.ai</span>
+                            <span class="lk-desc">Colección completa de personajes</span>
+                        </div>
+                        <i class="fa-solid fa-arrow-right lk-arrow"></i>
+                    </a>
+
+                    <a href="#" class="link-item lk-card">
+                        <div class="lk-icon"><i class="fa-solid fa-id-card"></i></div>
+                        <div class="lk-info">
+                            <span class="lk-name">Character.ai</span>
+                            <span class="lk-desc">Chats más suaves y accesibles</span>
+                        </div>
+                        <i class="fa-solid fa-arrow-right lk-arrow"></i>
+                    </a>
+
+                    <a href="#" class="link-item lk-doki">
+                        <div class="lk-icon"><i class="fa-solid fa-heart"></i></div>
+                        <div class="lk-info">
+                            <span class="lk-name">Doki Chat</span>
+                            <span class="lk-desc">Experiencias más inmersivas</span>
+                        </div>
+                        <i class="fa-solid fa-arrow-right lk-arrow"></i>
+                    </a>
+
+                    <a href="#" class="link-item lk-wattpad">
+                        <div class="lk-icon"><i class="fa-solid fa-book-open"></i></div>
+                        <div class="lk-info">
+                            <span class="lk-name">Wattpad</span>
+                            <span class="lk-desc">Mis historias escritas a mano</span>
+                        </div>
+                        <i class="fa-solid fa-arrow-right lk-arrow"></i>
+                    </a>
+
+                    <a href="#" class="link-item lk-discord" id="copy-link-btn">
+                        <div class="lk-icon"><i class="fa-brands fa-discord"></i></div>
+                        <div class="lk-info">
+                            <span class="lk-name">Copiar enlace</span>
+                            <span class="lk-desc">Comparte este perfil</span>
+                        </div>
+                        <i class="fa-solid fa-copy lk-arrow"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- ═══ PANEL: ROL ═══ -->
+        <div class="panel" id="rol-panel">
+            <button class="panel-close"><i class="fa-solid fa-xmark"></i></button>
+            <div class="panel-content">
+                <h2 class="panel-title">Sobre el Rol</h2>
+
+                <div class="rol-section">
+                    <div class="rol-block allowed">
+                        <h3><i class="fa-solid fa-check"></i> Me gusta</h3>
+                        <ul>
+                            <li>Dark Romance con profundidad emocional</li>
+                            <li>Personajes con arcos reales y heridas</li>
+                            <li>Narrativa lenta que construye tensión</li>
+                            <li>Escenarios de época o fantasía oscura</li>
+                            <li>Rolplayers que respetan el lore del personaje</li>
+                            <li>Escritura descriptiva e inmersiva</li>
+                        </ul>
+                    </div>
+                    <div class="rol-block disliked">
+                        <h3><i class="fa-solid fa-xmark"></i> No me va</h3>
+                        <ul>
+                            <li>Respuestas de una sola línea</li>
+                            <li>Romper el personaje sin avisar</li>
+                            <li>Apresurar tramas sin desarrollo</li>
+                            <li>Ignorar la historia del personaje</li>
+                            <li>Solicitudes irrespetuosas</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="rol-rules">
+                    <h3 class="rules-title">✦ Mis Reglas</h3>
+                    <div class="rule-item">
+                        <span class="rule-num">01</span>
+                        <p>Soy la creadora de los bots. No los modifico por petición, pero escucho sugerencias con respeto.</p>
+                    </div>
+                    <div class="rule-item">
+                        <span class="rule-num">02</span>
+                        <p>Si interactuamos en rol: al menos 3 líneas de respuesta, por favor. El esfuerzo mutuo hace la magia.</p>
+                    </div>
+                    <div class="rule-item">
+                        <span class="rule-num">03</span>
+                        <p>Prefiero calidad a velocidad. No me presionen para responder más rápido.</p>
+                    </div>
+                    <div class="rule-item">
+                        <span class="rule-num">04</span>
+                        <p>Todo el contenido es para mayores de 18 años. Sin excepciones.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ═══ MAIN CARD ═══ -->
+        <main class="main-card">
+
+            <!-- Foto principal -->
+            <div class="main-photo-section">
+                <div class="main-photo-frame">
+                    <img src="https://i.pravatar.cc/300?img=47" alt="Seoari" class="main-photo">
+                    <div class="main-photo-glow"></div>
+                </div>
+                <div class="main-rose-deco">🌹</div>
+            </div>
+
+            <!-- Intro -->
+            <div class="main-intro">
+                <h2 class="main-greeting typewriter">hola, soy Seoari ✦</h2>
+                <p class="main-desc typewriter">creadora de mundos oscuros,<br>personajes que te roban el aliento<br>e historias que no te abandonan.</p>
+            </div>
+
+            <!-- Stats decorativas -->
+            <div class="main-stats">
+                <div class="stat-bubble">
+                    <span class="stat-num">6</span>
+                    <span class="stat-label">bots</span>
+                </div>
+                <div class="stat-bubble">
+                    <span class="stat-num">∞</span>
+                    <span class="stat-label">historias</span>
+                </div>
+                <div class="stat-bubble">
+                    <span class="stat-num">♡</span>
+                    <span class="stat-label">dark romance</span>
+                </div>
+            </div>
+
+            <!-- Géneros favoritos -->
+            <div class="main-genres">
+                <span class="genre-tag">Dark Romance</span>
+                <span class="genre-tag">Fantasía</span>
+                <span class="genre-tag">Drama</span>
+                <span class="genre-tag">Angst</span>
+                <span class="genre-tag">Enemies to Lovers</span>
+                <span class="genre-tag">Slow Burn</span>
+            </div>
+
+        </main>
+
+    </div><!-- /site-wrapper -->
+
+    <script src="script.js"></script>
+</body>
+</html>
